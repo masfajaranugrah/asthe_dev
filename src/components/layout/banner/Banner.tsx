@@ -112,7 +112,7 @@ const Banner = () => {
                 className="banner-three__slider-single"
                 style={{
                   backgroundImage:
-                    "url('/images/banner/banner-3.png')",
+                    "url('/images/banner/banner-3.jpg')",
                 }}
               >
                 <div className="position-absolute top-0 start-0 w-100 h-100"
