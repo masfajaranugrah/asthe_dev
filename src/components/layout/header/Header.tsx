@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Offcanvas from "./Offcanvas";
+import Image from "next/image";
+import logo from "public/images/logo.png";
 
 interface HeaderProps {
   openNav: boolean;
@@ -25,37 +27,45 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const router = useRouter();
+  let logoSrc = logo;
 
   return (
     <>
       <header className="header">
-<div
-  className={`primary-navbar cmn-nav ${scrolled ? "glass-nav" : "bg-transparent"}`}
->
+        <div
+          className={`primary-navbar cmn-nav ${scrolled ? "glass-nav" : "bg-transparent"}`}
+        >
 
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <nav className="navbar py-4 d-flex justify-content-between align-items-center">
+                <nav className="navbar py-3 d-flex justify-content-between align-items-center">
                   {/* Logo */}
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
-                      <h3 className="text-white m-0">AD</h3>
+                      <Image
+                        src={logoSrc}
+                        alt="Logo"
+                        priority
+                        width={40}
+                        height={40}
+                        className="img-fluid"
+                      />
                     </Link>
                   </div>
 
+
                   {/* Menu */}
-               <div className="navbar__menu">
-  <ul className="d-flex gap-4 m-0 list-unstyled">
-    <li className="navbar__item text-bold"><Link href="/"  style={{ fontSize: "20px", fontWeight: "bold" }}>Home</Link></li>
-    <li className="navbar__item"><Link href="/about-us"  style={{ fontSize: "20px", fontWeight: "bold" }}>About Us</Link></li>
-    <li className="navbar__item"><Link href="/our-services"  style={{ fontSize: "20px", fontWeight: "bold" }}>Services</Link></li>
-    <li className="navbar__item"><Link href="/portfolio"  style={{ fontSize: "20px", fontWeight: "bold" }}>Projects</Link></li>
-    <li className="navbar__item"><Link href="/our-teams"  style={{ fontSize: "20px", fontWeight: "bold" }}>Team</Link></li>
-    <li className="navbar__item"><Link href="/contact-us"  style={{ fontSize: "20px", fontWeight: "bold" }}>Contact</Link></li>
-  </ul>
-</div>
+                  <div className="navbar__menu">
+                    <ul className="d-flex gap-4 m-0 list-unstyled">
+                      <li className="navbar__item text-bold"><Link href="/" style={{ fontSize: "20px", fontWeight: "bold" }}>Home</Link></li>
+                      <li className="navbar__item"><Link href="/about-us" style={{ fontSize: "20px", fontWeight: "bold" }}>About Us</Link></li>
+                      <li className="navbar__item"><Link href="/our-services" style={{ fontSize: "20px", fontWeight: "bold" }}>Services</Link></li>
+                      <li className="navbar__item"><Link href="/portfolio" style={{ fontSize: "20px", fontWeight: "bold" }}>Projects</Link></li>
+                      <li className="navbar__item"><Link href="/our-teams" style={{ fontSize: "20px", fontWeight: "bold" }}>Team</Link></li>
+                      <li className="navbar__item"><Link href="/contact-us" style={{ fontSize: "20px", fontWeight: "bold" }}>Contact</Link></li>
+                    </ul>
+                  </div>
 
 
                   {/* Right Options */}

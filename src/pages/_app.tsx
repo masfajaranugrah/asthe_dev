@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import type { AppProps } from "next/app";
-
 // bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 

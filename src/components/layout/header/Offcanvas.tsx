@@ -10,9 +10,7 @@ interface HeaderProps {
 
 const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
   const [openSubMenu, setOpenSubMenu] = useState<string | null>(null);
-  const [openNestedMenu, setOpenNestedMenu] = useState<string | null>(null);
- 
-
+  const logoSrc= logo
   // window resize
   useEffect(() => {
     const handleResizeHeader = (): void => {
@@ -41,7 +39,14 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__header nav-fade">
             <div className="logo">
               <Link href="/">
-               <h3>AD</h3>
+                 <Image
+                                       src={logoSrc}
+                                       alt="Logo"
+                                       priority
+                                       width={40}
+                                       height={40}
+                                       className="img-fluid"
+                                     />
               </Link>
             </div>
             <button

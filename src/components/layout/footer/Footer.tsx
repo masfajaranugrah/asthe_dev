@@ -104,7 +104,7 @@ const Footer = () => {
       animatedText.innerHTML = "";
     }
   }, []);
-
+const logoSrc = logo
   return (
     <footer className="footer-two footer-cmn section pb-0">
       <div className="container">
@@ -113,6 +113,14 @@ const Footer = () => {
             <div className="footer-two__left">
               <div className="logo">
                 <Link href="/">
+                      <Image
+                                          src={logoSrc}
+                                          alt="Logo"
+                                          priority
+                                          width={40}
+                                          height={40}
+                                          className="img-fluid"
+                                        />
                   <h3>Astheron Developers</h3>
                 </Link>
               </div>

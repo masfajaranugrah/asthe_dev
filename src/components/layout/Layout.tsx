@@ -9,8 +9,7 @@ import Header from "./header/Header";
 import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";
-
-type LayoutProps = {
+ type LayoutProps = {
   children: React.ReactNode;
   handleMouseEnterTitle?: any;
   handleMouseLeaveTitle?: any;
@@ -161,7 +160,8 @@ const Layout = ({
   }, []);
 
   return (
-    <Fragment>
+  <>
+     <Fragment>
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -195,6 +195,7 @@ const Layout = ({
         />
       </div>
     </Fragment>
+    </>
   );
 };
 
