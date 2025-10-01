@@ -38,7 +38,7 @@ const Portfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
+                <Link href="project-single">
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -48,7 +48,7 @@ const Portfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
+                <Link href="project-single">
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -58,7 +58,7 @@ const Portfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
+                <Link href="project-single">
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -68,7 +68,7 @@ const Portfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
+                <Link href="project-single">
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -78,7 +78,7 @@ const Portfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
+                <Link href="project-single">
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -88,7 +88,7 @@ const Portfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
+                <Link href="project-single">
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -98,7 +98,7 @@ const Portfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
+                <Link href="project-single">
                   digital portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -155,15 +155,15 @@ const Portfolio = () => {
             }`}
           >
             <div className="portfolio__single portfolio__single-active topy-tilt fade-top">
-              <Link href="portfolio">
+              <Link href="project-single">
                 <Image src={one} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="project-single">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="project-single">Digital Marketing</Link>
                 </h4>
               </div>
             </div>
@@ -174,15 +174,15 @@ const Portfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
+              <Link href="project-single">
                 <Image src={two} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="project-single">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="project-single">Digital Marketing</Link>
                 </h4>
               </div>
             </div>
@@ -195,15 +195,15 @@ const Portfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
+              <Link href="project-single">
                 <Image src={three} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="project-single">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="project-single">Digital Marketing</Link>
                 </h4>
               </div>
             </div>
@@ -216,15 +216,15 @@ const Portfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
+              <Link href="project-single">
                 <Image src={four} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="project-single">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="project-single">Digital Marketing</Link>
                 </h4>
               </div>
             </div>
@@ -235,15 +235,15 @@ const Portfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
+              <Link href="project-single">
                 <Image src={five} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="project-single">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="project-single">Digital Marketing</Link>
                 </h4>
               </div>
             </div>
@@ -256,15 +256,15 @@ const Portfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
+              <Link href="project-single">
                 <Image src={one} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="project-single">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="project-single">Digital Marketing</Link>
                 </h4>
               </div>
             </div>
