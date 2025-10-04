@@ -12,27 +12,35 @@ const Award = () => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-6">
             <div className="award__thumb dir-rtl">
-              <Image src={awardthumb} alt="Image" className="unset fade-left" />
+              <Image 
+              src="/images/logo3.png" 
+              alt="Logo" 
+              width={500} 
+              height={100} 
+              className="unset fade-left" 
+            />
             </div>
           </div>
           <div className="col-12 col-lg-6 col-xxl-5 offset-xxl-1">
             <div className="award__content section__content">
               <span className="sub-title">
-                WE PROUD THAT
+               FIND OUT ABOUT US
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                Discover Our <span>Awards</span>
+                Company  <span>Overview</span>
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined
+                  Astheron Technologies is an innovative company focused on 
+                developing Artificial Intelligence and intelligent software for 
+                various future needs. With expertise in AI technology, 
+                Astheron is committed to delivering solutions that not only support 
+                business progress but also positively impact society at large.Supported 
+                by a visionary team of technology enthusiasts, Astheron continues to foster strategic collaborations with top partners to create an inclusive, efficient, and sustainable technology ecosystem. Astheron believes that artificial intelligence and digital innovation will be key to building a better future for all.
                 </p>
               </div>
-              <div className="award__content-meta">
+              {/* <div className="award__content-meta">
                 <div className="single">
                   <h4>2018</h4>
                   <h4>Awwwards</h4>
@@ -48,7 +56,7 @@ const Award = () => {
                   <h4>Awwwards</h4>
                   <p>Apps of the day</p>
                 </div>
-              </div>
+              </div> */}
               <div className="section__content-cta">
                 <Link href="about-us" className="btn btn--primary">
                   Know More

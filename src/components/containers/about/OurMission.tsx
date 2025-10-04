@@ -46,12 +46,22 @@ const OurMission = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="mission-s__single fade-top">
-              <Image src={one} alt="Image" />
+              <Image 
+              src="/images/Handshake.jpg" 
+              alt="Logo" 
+              fill 
+              className="unset fade-left" 
+              />
             </div>
           </div>
           <div className="col-12 col-lg-6">
             <div className="mission-s__single fade-top">
-              <Image src={two} alt="Image" />
+              <Image 
+              src="/images/kolaboratif.jpg" 
+              alt="Logo" 
+              fill
+              className="unset fade-left" 
+            />
             </div>
           </div>
           <div className="col-12 col-lg-6">

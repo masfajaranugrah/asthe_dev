@@ -82,7 +82,7 @@ const WorkStepsProject = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/Discover & Strategy.jpg')",
                   }}
                 ></div>
               </div>
@@ -103,7 +103,7 @@ const WorkStepsProject = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/Mockup.jpg')",
                   }}
                 ></div>
               </div>
@@ -124,7 +124,7 @@ const WorkStepsProject = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/Hi-Fidelity Design.jpg')",
                   }}
                 ></div>
               </div>
@@ -145,7 +145,7 @@ const WorkStepsProject = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/Development.jpg')",
                   }}
                 ></div>
               </div>
