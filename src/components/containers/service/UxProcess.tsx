@@ -33,9 +33,7 @@ const UxProcess = () => {
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    The initial stage is to understand user needs and the problems to be solved. This is done through research, interviews, or observation.
                   </p>
                 </div>
                 <button
@@ -56,9 +54,7 @@ const UxProcess = () => {
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Visualization of the user experience storyline when using the product, to see the context of use more realistically.
                   </p>
                 </div>
                 <button
@@ -79,9 +75,7 @@ const UxProcess = () => {
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Create a rough outline (sketch) of the page or application layout without design details, focusing on structure and function.
                   </p>
                 </div>
                 <button
@@ -102,9 +96,7 @@ const UxProcess = () => {
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Build an early version of the product that can be tested to see interaction flows and identify problems early.
                   </p>
                 </div>
                 <button
@@ -125,9 +117,7 @@ const UxProcess = () => {
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Test prototypes with real users to assess ease of use and identify bottlenecks.
                   </p>
                 </div>
                 <button
@@ -148,9 +138,7 @@ const UxProcess = () => {
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Design the final appearance of the product (color, typography, icons, layout) to be more attractive, intuitive, and in line with the brand identity.
                   </p>
                 </div>
                 <button
