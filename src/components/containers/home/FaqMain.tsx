@@ -10,7 +10,12 @@ const FaqMain = () => {
         <div className="row gaper">
           <div className="col-12 col-lg-6">
             <div className="faq__thumb fade-left">
-              <Image src={thumb} alt="Image" />
+              <Image
+                src="/images/logo5k.png"
+                width="330"
+                height="330"
+                alt="Image"
+              />
             </div>
           </div>
           <div className="col-12 col-lg-6">

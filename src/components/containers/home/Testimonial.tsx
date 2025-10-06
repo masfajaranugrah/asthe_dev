@@ -136,7 +136,12 @@ const Testimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image src={sthumb} alt="Image" />
+                          <Image
+                            src="/images/helmi.png"
+                            width="330"
+                            height="330"
+                            alt="Image"
+                          />
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -159,15 +164,17 @@ const Testimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              I was thoroughly impressed with Ashteron
+                              Developers' technical expertise. They delivered
+                              clean, scalable code and integrated seamlessly
+                              with our workflow. Their communication is direct
+                              and efficient—they are true problem-solvers.
+                              Highly recommended for any professional
+                              development needs.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
+                            <h5>Helmi Purnomo</h5>
                             <p>Senior engineer</p>
                           </div>
                         </div>
@@ -180,7 +187,12 @@ const Testimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image src={sthumbtwo} alt="Image" />
+                          <Image
+                            src="/images/ali.png"
+                            width="330"
+                            height="330"
+                            alt="Image"
+                          />
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -203,16 +215,17 @@ const Testimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              Ashteron Developers perfectly translated our
+                              business vision into a high-converting website.
+                              They understood our brand and goals, delivering
+                              the project on time and within budget. They are
+                              more than developers; they are essential partners
+                              for growth.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Kurniawan</h5>
+                            <p>Enterprenuer</p>
                           </div>
                         </div>
                       </div>
@@ -224,7 +237,12 @@ const Testimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image src={sthumbthree} alt="Image" />
+                          <Image
+                            src="/images/pal.png"
+                            width="330"
+                            height="330"
+                            alt="Image"
+                          />
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -247,16 +265,16 @@ const Testimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              As a student needing an affordable portfolio, I
+                              had no idea where to start. The Ashteron team was
+                              incredibly patient, guiding me through the process
+                              without confusing jargon. The final website is
+                              stunning and professional. I couldn't be happier!
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Ilham Joseph</h5>
+                            <p>Student</p>
                           </div>
                         </div>
                       </div>
@@ -282,7 +300,7 @@ const Testimonial = () => {
           </button>
         </div>
       </div>
-      <div className="other-section">
+      {/* <div className="other-section">
         <Image
           className="other-section-image"
           src={
@@ -294,7 +312,7 @@ const Testimonial = () => {
           }
           alt="Next Slide Image"
         />
-      </div>
+      </div> */}
       <div className="lines d-none d-lg-flex">
         <div className="line"></div>
         <div className="line"></div>

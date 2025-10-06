@@ -13,7 +13,13 @@ const HomeThreeAgency = () => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-6">
             <div className="agency__thumb">
-              <Image src={thumbthree} alt="Image" className="fade-left" />
+              <Image
+                src="/images/charles.jpg"
+                width="690"
+                height="686"
+                alt="Image"
+                className="fade-left"
+              />
             </div>
           </div>
           <div className="col-12 col-lg-6">
