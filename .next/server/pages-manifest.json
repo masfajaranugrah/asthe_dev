@@ -4,6 +4,7 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/about-us": "pages/about-us.js",
+  "/404": "pages/404.js",
   "/our-services": "pages/our-services.js",
-  "/404": "pages/404.js"
+  "/our-teams": "pages/our-teams.js"
 }
