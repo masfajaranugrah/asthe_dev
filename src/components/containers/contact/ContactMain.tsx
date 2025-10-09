@@ -17,12 +17,9 @@ const ContactMain = () => {
                 <Image src={phone} alt="Image" />
               </div>
               <div className="content">
-                <h4>Phone & Fax</h4>
+                <h4>Phone</h4>
                 <p>
                   <Link href="tel:197-90-56-780">Mobile : +62-90-56-780</Link>
-                </p>
-                <p>
-                  <Link href="tel:197-90-56-780">Fax : +62-208-1234567</Link>
                 </p>
               </div>
             </div>
@@ -36,12 +33,7 @@ const ContactMain = () => {
                 <h4>Mail Address</h4>
                 <p>
                   <Link href="mailto:info.company@gmail.com">
-                    Info.company@gmail.com
-                  </Link>
-                </p>
-                <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@yahoo.com
+                    AstheronDevs@gmail.com
                   </Link>
                 </p>
               </div>
@@ -72,8 +64,8 @@ const ContactMain = () => {
               </div>
               <div className="content">
                 <h4>Office Hour</h4>
-                <p>Sun - Thu 09 am - 06pm</p>
-                <p>Fri - Sat 4 pm - 10pm</p>
+                <p>Mon - Fri 08 am - 05 pm</p>
+                <p>Sat - Sun 09 pm - 12 pm</p>
               </div>
             </div>
           </div>
@@ -85,7 +77,7 @@ const ContactMain = () => {
                 <div className="col-12 col-lg-6">
                   <div className="contact__map fade-top">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20342.411046372905!2d-74.16638039276373!3d40.719832743885284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1649562691355!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63282.31350308245!2d110.8188121!3d-7.559208999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a16627ad11ab1%3A0xe7fe4e0454bc3095!2sSurakarta%2C%20Surakarta%20City%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1760023930698!5m2!1sen!2sid"
                       width="100"
                       height="800"
                       style={{ border: "0px" }}

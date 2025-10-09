@@ -62,7 +62,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="navbar__item"><Link href="/about-us" style={{ fontSize: "20px", fontWeight: "bold" }}>About Us</Link></li>
                       <li className="navbar__item"><Link href="/our-services" style={{ fontSize: "20px", fontWeight: "bold" }}>Services</Link></li>
                       <li className="navbar__item"><Link href="/portfolio" style={{ fontSize: "20px", fontWeight: "bold" }}>Projects</Link></li>
-                      <li className="navbar__item"><Link href="/our-teams" style={{ fontSize: "20px", fontWeight: "bold" }}>Team</Link></li>
+                      {/* <li className="navbar__item"><Link href="/our-teams" style={{ fontSize: "20px", fontWeight: "bold" }}>Team</Link></li> */}
                       <li className="navbar__item"><Link href="/contact-us" style={{ fontSize: "20px", fontWeight: "bold" }}>Contact</Link></li>
                     </ul>
                   </div>

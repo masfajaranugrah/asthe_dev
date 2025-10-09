@@ -822,7 +822,7 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        // right: 100px;
+        right: -80px;
       }
     }
     .testimonial-s__content {
@@ -833,7 +833,7 @@
         }
       }
       .content {
-        margin: 20px 0px;
+        margin: 30px 0px;
       }
       h4 {
         font-weight: 400;
@@ -2168,6 +2168,8 @@
     padding: 40px;
     background-color: var(--tertiary-color);
     position: relative;
+    height: 155%;
+  min-height: 510px;
     .sub-title {
       display: inline-flex;
       align-items: center;
