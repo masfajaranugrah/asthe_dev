@@ -138,7 +138,7 @@ const logoSrc = logo
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@gmail.com
+                    AstheronDevs@gmail.com
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -191,7 +191,7 @@ const logoSrc = logo
                 </Link>
                 <Link href="mailto:info@xpovio.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@astheron.com
+                  AstheronDevs@gmail.com
                 </Link>
               </div>
             </div>

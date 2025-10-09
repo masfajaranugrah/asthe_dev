@@ -2168,6 +2168,8 @@
     padding: 40px;
     background-color: var(--tertiary-color);
     position: relative;
+    height: 155%;
+    min-height: 510px;
     .sub-title {
       display: inline-flex;
       align-items: center;

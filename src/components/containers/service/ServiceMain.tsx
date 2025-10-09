@@ -50,15 +50,12 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Branding</Link>
+                          <Link href="service-single">AI Agent</Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
-                        <li>Customer Value</li>
+                        <li>ChatBot AI</li>
+
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
