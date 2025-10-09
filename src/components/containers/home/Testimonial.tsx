@@ -1,12 +1,8 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import sthumb from "public/images/testimonial/s-thumb.png";
-import sthumbtwo from "public/images/testimonial/s-thumb-two.png";
-import sthumbthree from "public/images/testimonial/s-thumb-three.png";
 
 const Testimonial = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);
@@ -106,8 +102,8 @@ const Testimonial = () => {
         </Swiper>
       </div>
       <div className="container position-relative">
-        <div className="row">
-          <div className="col-12 col-xxl-10">
+       <div className="row justify-content-center text-left">
+<div className="col-12 col-lg-8 mx-auto">
             <div className="testimonial-s__slider-w">
               <Swiper
                 slidesPerView={1}
@@ -136,12 +132,7 @@ const Testimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image
-                            src="/images/helmi.png"
-                            width="330"
-                            height="330"
-                            alt="Image"
-                          />
+                         
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -187,12 +178,7 @@ const Testimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image
-                            src="/images/ali.png"
-                            width="330"
-                            height="330"
-                            alt="Image"
-                          />
+                           
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
@@ -237,12 +223,7 @@ const Testimonial = () => {
                     <div className="row gaper align-items-center">
                       <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
-                          <Image
-                            src="/images/pal.png"
-                            width="330"
-                            height="330"
-                            alt="Image"
-                          />
+                          
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="44"
