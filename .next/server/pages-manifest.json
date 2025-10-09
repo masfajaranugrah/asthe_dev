@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/about-us": "pages/about-us.js",
-  "/404": "pages/404.js",
   "/our-services": "pages/our-services.js",
-  "/our-teams": "pages/our-teams.js"
+  "/404": "pages/404.js",
+  "/about-us": "pages/about-us.js",
+  "/": "pages/index.js",
+  "/contact-us": "pages/contact-us.js"
 }
